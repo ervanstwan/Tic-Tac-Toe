@@ -8,12 +8,14 @@ A simple Tic-Tac-Toe game with a full GitLab CI/CD pipeline.
 - GitLab CI/CD
 
 ## ⚙️ Pipeline Stages
+```
 | Stage       | Description                |
 |------------------------------------------|
 | 🛠 Build    | Install dependencies       |
 | ✅ Test     | Run dummy tests           |
 | 🔒 Security | Run `npm audit`           |
 | 🚀 Deploy   | Simulate deployment       |
+```
 
 ## ▶️ Run Locally
 ```
