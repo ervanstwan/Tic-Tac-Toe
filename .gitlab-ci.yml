@@ -1,0 +1,22 @@
+
+stages:
+  - build
+  - test
+  - security
+  - deploy
+
+build:
+  script:
+    - npm install
+
+test:
+  script:
+    - echo "No tests yet"
+
+security:
+  script:
+    - npm audit
+
+deploy:
+  script:
+    - echo "Deploy step (simulation)"
